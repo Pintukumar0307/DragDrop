@@ -1,0 +1,80 @@
+.main h2 {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.left-container,
+.right-container {
+  width: 40vw;
+  height: 70vh;
+  border: 1px solid #ccc;
+  margin: 10px;
+  padding: 10px;
+}
+
+
+
+.image {
+  height: 120px;
+  width: 120px;
+  margin: 10px;
+}
+
+.text {
+  font-size: 20px;
+  margin: 5px;
+}
+
+.material-icons {
+  font-size: 120px;
+  margin: 10px;
+}
+
+
+
+.btn {
+  text-align: center;
+
+}
+
+.btn button {
+  font-size: 30px;
+  border-radius: 12px;
+  color: white;
+  background-color: rgb(212, 84, 84);
+}
+
+.btn button:hover {
+  background-color: rgb(68, 12, 12);
+}
+
+
+.hide {
+  display: none;
+}
+
+
+@media screen and (max-width: 600px) {
+  .image {
+    height: 60px;
+    width: 60px;
+    margin: 5px;
+  }
+
+  .text {
+    font-size: 15px;
+    margin: 5px;
+  }
+
+  .material-icons {
+    font-size: 20px;
+    margin: 5px;
+  }
+
+}
